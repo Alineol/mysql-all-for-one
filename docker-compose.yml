@@ -6,7 +6,7 @@ services:
     working_dir: /app
     volumes:
       - ./:/app
-    container_name: all_for_one
+    container_name: all_for_one 
     tty: true
     stdin_open: true
     command: bash
