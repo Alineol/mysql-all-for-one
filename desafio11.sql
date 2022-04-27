@@ -1,0 +1,1 @@
+SELECT notes FROM northwind.purchase_orders WHERE notes like '%3%' and notes NOT like '%9';
