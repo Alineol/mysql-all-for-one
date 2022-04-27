@@ -1,0 +1,1 @@
+UPDATE northwind.order_details SET discount = 45 WHERE (id BETWEEN 30 and 40) and unit_price > 10.000;
